@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.main {
+    text-align: center;
+    background-color: lightgray;
+    margin: 0 50px;
+    height: 80px;
+}
+
+.main input {
+    display: block;
+    margin: auto;
+    width: 400px;
+}
+.bottom {
+    margin: 0 50px;
+}
+.cards {
+    background-color: lightseagreen;
+    height: 80px;
+    width:90%;
+    text-align: center;
+    
+}
+.cards1 {
+    float: left;
+    width: 35%;
+    padding-left: 50px;
+    margin-right: 5px;
+}
+.cards2 {
+    float: left;
+    width: 24%;
+}
+.cards3 {
+    float: left;
+    width: 40%;
+    margin-left: 5px;
+}
+.cards3::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.card32 input {
+    width: 160px;
+}
+.card33 button {
+    padding: 1px;
+}
